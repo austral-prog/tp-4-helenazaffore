@@ -18,5 +18,5 @@ def line():
     print(f"\tP1 ({coef_x_1}, {coef_y_1})")
     print(f"\tP2 ({coef_x_2}, {coef_y_2})")
     print("")
-    distancia_puntos = ((coef_x_2 - coef_x_1)*2 + (coef_y_2 - coef_y_1)2)*0.5
+    distancia_puntos = ((coef_x_2 - coef_x_1)**2 + (coef_y_2 - coef_y_1)**2)**0.5
     print(f"La distancia entre ellos es: {distancia_puntos}")
