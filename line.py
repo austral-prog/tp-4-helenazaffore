@@ -22,3 +22,4 @@ def line():
     print(f"\tP2 ({X2}, {Y2})")
     
     print(f"\nLa distancia entre ellos es: {distancia}")
+line()
